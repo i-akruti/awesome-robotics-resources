@@ -20,18 +20,33 @@ They are a cornerstone of model-based reinforcement learning, safe planning, and
 - [VC-1: Robots Learning by Video Simulation + Artificial Visual Cortex (Meta AI, 2024)](https://ai.meta.com/blog/robots-learning-video-simulation-artificial-visual-cortex-vc-1/) — Robots learn through simulated video worlds trained to mimic visual cortex processing.
 - [DiffuseBot: Breeding Soft Robots with Physics-Augmented Generative Diffusion (2023)](https://arxiv.org/abs/2311.17053) — Uses diffusion-based generative models to evolve soft robot morphologies with physics constraints. 
 - [RoboGen: Infinite Data for Robot Learning via Generative Simulation (2023)](https://arxiv.org/abs/2311.01455) — Explores the use of generative simulation to produce vast training data for robot learning.
+- [Understanding World or Predicting Future? A Comprehensive Survey of World Models (2025)](https://arxiv.org/html/2411.14499) — Provides a comprehensive survey of world models, comparing approaches focused on understanding environments versus predicting future dynamics.
+- [From Word Models to World Models: Translating from Natural Language to the Probabilistic Language of Thought (2023)](https://arxiv.org/abs/2306.12672) — Bridging the gap between language models’ text-based knowledge and structured, probabilistic world models needed for reasoning and prediction.
 
+- [Do Vision-Language Models Have Internal World Models? Towards an Atomic Evaluation (2025)](https://arxiv.org/abs/2506.21876) - Evaluates whether modern vision–language models possess internal world models by rigorously testing their perception and predictive reasoning abilities.
+- [Adapting Vision-Language Models for Evaluating World Models (2025)](https://arxiv.org/abs/2506.17967) - Enables fine-grained, temporally grounded evaluation of world model rollouts using adapted vision–language models.
+- [Toward Stable World Models: Measuring and Addressing World Instability in Generative Environments (2025)](https://arxiv.org/abs/2503.08122) - Addresses instability in diffusion-based world models where scene elements change unpredictably over time.
 
 
 ## 💻 Open-Source Repositories
 - [Genesis](https://github.com/Genesis-Embodied-AI/Genesis)
+
 - [World Models Experiments (Ha & Schmidhuber)](https://github.com/hardmaru/WorldModelsExperiments)
 - [DreamerV3 (reimplementation)](https://github.com/danijar/dreamerv3)
-- []
 - [Mujoco + World Models Examples](https://github.com/openai/mujoco-py)
+- [HunyuanWorld-1.0](https://github.com/Tencent-Hunyuan/HunyuanWorld-1.0)
+- [DIAMOND (DIffusion As a Model Of eNvironment Dreams)](https://github.com/eloialonso/diamond)
+- [DriveAGI](https://github.com/OpenDriveLab/DriveAGI)
+- [DayDreamer](https://github.com/danijar/daydreamer)
+- [Open Driving World Models (OpenDWM)](https://github.com/SenseTime-FVG/OpenDWM)
+- [Implementation of the DreamerV2 agent in TensorFlow 2](https://github.com/danijar/dreamerv2)
 - [PlaNet Implementation (PyTorch)](https://github.com/Kaixhin/PlaNet)
 - [EmbodiedGen](https://github.com/HorizonRobotics/EmbodiedGen)
 - [awesome-world-models-for-robots](https://github.com/operator22th/awesome-world-models-for-robots)
+- [Awesome-World-Models](https://github.com/PatrickHua/Awesome-World-Models)
+- [Generative Wolrd Explorer](https://github.com/GenEx-world/genex)
+- [GenieRedux](https://github.com/insait-institute/GenieRedux)
+
 
 
 ## 🛠️ Tools or Libraries
@@ -39,23 +54,41 @@ They are a cornerstone of model-based reinforcement learning, safe planning, and
 - [OpenAI Gym / Gymnasium](https://gymnasium.farama.org/) – Widely used RL environment suite.
 - [Habitat-Sim](https://aihabitat.org/) – Embodied AI and navigation simulator.
 - [MuJoCo](https://mujoco.org/) – High-performance physics engine for model-based RL.
+
 - [PyBullet](https://pybullet.org/) – Physics dataset simulator for robotics and RL.
 
 ## 📊 Benchmarks and Datasets
+- [EmbodiedBench: Comprehensive Benchmarking Multi-modal Large Language Models for Vision-Driven Embodied Agents](https://arxiv.org/abs/2502.09560)
+- [WorldScore: A Unified Evaluation Benchmark for World Generation](https://worldmodelbench.github.io/static/pdfs/2_WorldScore_A_Unified_Evaluat.pdf)
+- [WorldSimBench: Towards Video Generation Models as World Simulators](https://worldmodelbench.github.io/static/pdfs/8_WorldSimBench_Towards_Video_.pdf)
+- [Beyond Simulation: Benchmarking World Models for Planning and Causality in Autonomous Driving](https://arxiv.org/abs/2508.01922)
+
+- [WorldPrediction: A Benchmark for High-level World Modeling and Long-horizon Procedural Planning](https://arxiv.org/abs/2506.04363)
+- [Toward Memory-Aided World Models: Benchmarking via Spatial Consistency](https://arxiv.org/abs/2505.22976)
+- [SimWorld: A Unified Benchmark for Simulator-Conditioned Scene Generation via World Model](https://arxiv.org/abs/2503.13952)
+- [EWMBench: Evaluating Scene, Motion, and Semantic Quality in Embodied World Models](https://arxiv.org/abs/2505.09694)
+- [ACT-Bench: Towards Action Controllable World Models for Autonomous Driving](https://arxiv.org/abs/2412.05337)
+- [Text2World: Benchmarking Large Language Models for Symbolic World Model Generation](https://arxiv.org/abs/2502.13092)
+- [Imagine the Unseen World: A Benchmark for Systematic Generalization in Visual World Models](https://arxiv.org/abs/2311.09064)
+- [CityBench: Evaluating the Capabilities of Large Language Models for Urban Tasks](https://arxiv.org/abs/2406.13945)
+- [AeroVerse: UAV-Agent Benchmark Suite for Simulating, Pre-training, Finetuning, and Evaluating Aerospace Embodied World Models](https://arxiv.org/pdf/2408.15511)
+- [EVA: An Embodied World Model for Future Video Anticipation](https://arxiv.org/abs/2410.15461)
+
 
 
 ## 🎓 Courses & Tutorials
-- [CS285: Deep Reinforcement Learning (UC Berkeley)](http://rail.eecs.berkeley.edu/deeprlcourse/)
-- [MIT 6.S191: Introduction to Deep Learning](http://introtodeeplearning.com/)
-- [DreamerV3 Colab Tutorial](https://colab.research.google.com/github/danijar/dreamerv3/blob/main/notebooks/dreamerv3.ipynb)
+
 - [Spinning Up in Deep RL (OpenAI)](https://spinningup.openai.com/en/latest/)
 
 
 ## 📝 Blogs & Explanations
-- [Lil’Log: A Tour of World Models](https://lilianweng.github.io/posts/2019-07-10-world-models/)
-- [Distill: Understanding RL through Imagination](https://distill.pub/)
-- [DeepMind Blog: Genie](https://deepmind.google/discover/blog/genie/)
-- [HunyuanWorld-Voyager Release Post](https://arxiv.org/abs/2408.14506)
+- [Lil’Log: Diffusion Models for Video Generation](https://lilianweng.github.io/posts/2024-04-12-diffusion-video/)
+- [Rohit Bandaru: World Models](https://rohitbandaru.github.io/blog/World-Models/)
+- [DeepMind Blog: Genie 3: A new frontier for world models](https://deepmind.google/discover/blog/genie-3-a-new-frontier-for-world-models/)
+- [DeepMind Blog: Genie 2: A large-scale foundation world model](https://deepmind.google/discover/blog/genie-2-a-large-scale-foundation-world-model/)
+- [Gary Marcus: Generative AI’s crippling and widespread failure to induce robust models of the world](https://garymarcus.substack.com/p/generative-ais-crippling-and-widespread)
+- [Xun Huang: Towards Video World Models](https://www.xunhuang.me/blogs/world_model.html)
+- [HunyuanWorld-Voyager: Technical Report](https://3d-models.hunyuan.tencent.com/voyager/voyager_en/assets/HYWorld_Voyager.pdf)
 
 
 ---
